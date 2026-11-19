@@ -1,4 +1,4 @@
-def qsort(a, low, high):
+def qsort(a, low, high):#1차적으로 수행하는 커밋 2차적으로 추가적 수정을 한 커밋포함된내용
     if low < high:
         pivot = partition(a, low, high)
         qsort(a, low, pivot-1)
